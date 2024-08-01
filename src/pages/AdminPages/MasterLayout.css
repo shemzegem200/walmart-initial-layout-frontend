@@ -1,0 +1,131 @@
+.master-outer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e3e3;
+}
+
+.master-outer-dark-mode {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.outer-dashboard-container {
+    display: grid;
+    height: 85%;
+    width: 85%;
+    overflow: auto;
+    gap: 20px;
+    grid-template-columns: 18% auto;
+}
+
+.right-panel {
+    /* Styling for the right panel */
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    /* overflow: hidden; */
+    padding-top: 20px; /* Add some space at the top */
+}
+
+.left-panel Nav > *{
+    display: block;
+    width: 95%;
+}
+
+.left-panel-dark-mode {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, rgba(154, 75, 255, 0.24), rgba(154, 75, 255, 0));
+    border-radius: 14px;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    /* overflow: hidden; */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding-top: 20px; /* Add some space at the top */
+}
+
+.custom-menu {
+    width: 95%;
+    font-size: 1vw;
+    background-color: whitesmoke;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    gap: 5px;
+}
+
+.custom-menu-dark-mode {
+    width: 95%;
+    font-size: 1vw;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(154, 75, 255, 0), rgba(154, 75, 255, 0));
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+}
+
+.custom-menu .nav-link {
+    font-size: 1vw;
+    color: #000;
+}
+
+.custom-menu-dark-mode .nav-link{
+    font-size: 1vw;
+    color: white;
+}
+
+.custom-menu .nav-link.active,
+.custom-menu .nav-link:hover {
+    background: linear-gradient(to right, #FF5F82, #E268F3, #6F82FF);
+    color: #ffffff;
+}
+.custom-menu-dark-mode .nav-link.active,
+.custom-menu-dark-mode .nav-link:hover {
+    /* background: linear-gradient(to right, #FF5F82, #E268F3, #6F82FF); */
+    background-color: white;
+    color: black;
+}
+
+.master-logo {
+    font-family: 'Aeronik', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2vw;
+    margin-bottom: 25px;
+}
+
+.color-toggle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    bottom: 110px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #9A4BFF;
+    box-shadow: 0  8px 30px #994bffb8;
+    cursor: pointer;
+}
+
+
+
+
+
